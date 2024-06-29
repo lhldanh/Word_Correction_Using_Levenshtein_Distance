@@ -61,10 +61,10 @@ def main():
 
         col1, col2 = st.columns(2)
         col1.write('Top 10: ')
-        col1.write(lev_dis_lst[0:10])
+        col1.write(lev_dis_dict[0:10])
 
         col2.write('Top 10-20: ')
-        col2.write(lev_dis_lst[10:21])
+        col2.write(lev_dis_dict[10:21])
 
 
 if __name__ == "__main__":
